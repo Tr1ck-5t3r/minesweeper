@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.Description{
+    border: 2px solid rgba(235, 246, 255, 0.287);
+    color: rgb(189, 215, 239);
+    margin: 30px 120px;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(24, 26, 27);
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: none;
+}
+.Description:hover{
+    border: 2px solid rgba(235, 246, 255, 0.287);
+    color: (189, 215, 239);
+    margin: 30px 120px;
+    border-radius: 10px;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgba(255, 255, 255, 0.083);
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    color: rgb(65, 166, 255);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-shadow: none;
+}
+.article{
+    margin: 30px 40px;   
+    text-align: justify;
+
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.footer{
+    margin: -8px;
+    background-color:rgb(8, 8, 8);
+    color:aliceblue;   
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+h4{
+    font-family: 'Comfortaa', cursive;
+    color:rgba(240, 248, 255, 0.600);
+    margin-left: 30px;
+}
+.h2{
+    font-family: 'Valera Round', sans-serif;
+    color:rgb(15, 143, 255);
+    margin: 34px;
+    font-size: 25px;
+}
+.heading{
+    font-family: 'Lato', sans-serif;
+    color:rgb(0, 136, 255);
+    margin-left: 40px;
+    font-size: 30px;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+    color:rgba(240, 248, 255, 0.600);
+    margin-left: 60px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+.inner-row{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    color:rgba(240, 248, 255, 0.600);
+}
+.icons{
+    height: 35px;
+    width: 35px;
+}
+.icon-btn{
+    padding: 6px 6px 4px 6px;
+    margin: 5px;
+    background-color: rgba(240, 248, 255, 0.090);
+    border-radius: 15px;
+}
+.icon-btn:hover{
+    padding: 6px 6px 4px 6px;
+    margin: 5px;
+    background-color: rgba(240, 248, 255, 0.190);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.25);
+}
+.get-on{
+    height: 70px;
+    width: auto;
+}
+.get-on:hover{
+    height: 70px;
+    width: auto;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+}
+.col5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    max-height: 300px;
+    justify-content: space-around;
+}
+.inner-col1{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-around;
+}
